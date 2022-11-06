@@ -1,4 +1,4 @@
-a , b = 900 ,750
+a , b = int(input('a:')) ,int(input('b:'))
 a1=a
 b1=b
 q , r=None ,None
@@ -14,3 +14,4 @@ while True :
         print('**********************')
         print ('GCD({} , {}) is {} '.format( a1 , b1 , a))
         break
+print('hi')
