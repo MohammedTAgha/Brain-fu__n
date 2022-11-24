@@ -6,7 +6,6 @@ def solution(arr):
     else:
         print('NO')
 
-
 testcases = int(input())
 cases = []
 for case in range(testcases):
