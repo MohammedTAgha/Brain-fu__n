@@ -1,3 +1,4 @@
+** https://app.codesignal.com/arcade/db/would-you-like-the-second-meal/TfCxoCqHXShx7Hhzt/solutions
 FROM     expressions
 WHERE    c = IF( operation = '+', a+b,
              IF( operation = '-', a-b,
@@ -61,3 +62,5 @@ BEGIN
    RETURN @calc;
 END;
 ----
+***********************************************************************************************
+
