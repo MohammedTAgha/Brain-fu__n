@@ -36,7 +36,9 @@ lcm=1
 for x in all:
   lcm = lcm*x
   print()
-print(lcm)
+# print(lcm)
 
-# print(find_prime_facs(22))
-# print(find_prime_facs(256))
+print(find_prime_facs(3))
+print(find_prime_facs(12))
+print(find_prime_facs(39))
+print(find_prime_facs(120))
