@@ -1,7 +1,11 @@
 import math
 
 n = int(input())
-if (math.sqrt(n) % 2 == 0):
-    print('yes')
+x = math.sqrt(n)
+y = int(x)
+if (x - y == 0):
+    print('YES')
 else:
-    print('no')
+    print('NO')
+
+print(math.sqrt(n) - int(n))
