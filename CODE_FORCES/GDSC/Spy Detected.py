@@ -10,19 +10,24 @@ def sol(n):
             if i == 0:
                 if n[i] == n[i + 2]:
                     x = n[i + 1]
-                    return x
+                    return i + 2
                 else:
                     x = n[i]
-                    return x
+                    return i + 1
         if n[i] == n[i + 1] and n[i] == n[i + 2]:
-            i += 1
+            i += 2
             continue
         elif n[i] == n[i + 1] and n[i] != n[i + 2]:
             x = n[i + 2]
-            return x
+            return i + 3
         i += 1
 
 
-z = [int(x) for x in input().split()]
-nc = int
-print(sol(z))
+cases = []
+nc = int(input())
+for j in range(nc):
+    s = input()
+    z = [int(x) for x in input().split()]
+    cases.append(z)
+for k in cases:
+    print(sol(k))
