@@ -8,4 +8,3 @@ def sum(a, i, m):
 n, m = [int(b) for b in input().split()]
 arr = [int(x) for x in input().split()]
 print(sum(arr, len(arr) - 1, m))
-print(n, m)
