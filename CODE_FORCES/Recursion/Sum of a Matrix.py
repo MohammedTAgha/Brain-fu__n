@@ -8,8 +8,8 @@ for row in range(0, r * 2):
     else:
         x = [int(b) for b in input().split()]
         m2.append(x)
-print(m1)
-print(m2)
+# print(m1)
+# print(m2)
 z = [[1, 2, 3], [4, 5, 6]]
 
 
